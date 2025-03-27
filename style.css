@@ -19,7 +19,7 @@ body{
 
 .container{    
     background-color: rgb(255, 255, 255, 50%);
-    height: 118vh;
+    height: 136vh;
     width: 55vw;
     margin-top: 15vh;
     margin-left: 11vh;
@@ -67,62 +67,74 @@ section{
     position: fixed;
 }
 
-#name{
-    height: 6vh;
-    width: 30vw;
+#nome{
+    height: 8vh;
+    width: 45vw;
     margin-top: 18vh;
-    margin-left: 25vh;
-    font-size: 2vh;
+    margin-left: 9vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
 }
 
 #email{
-    height: 6vh;
-    width: 30vw;
+    height: 8vh;
+    width: 45vw;
     margin-top: 8vh;
-    margin-left: 25vh;
-    font-size: 2vh;
+    margin-left: 9vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
 
 }
 
-#password{
-    height: 6vh;
-    width: 30vw;
+#senha{
+    height: 8vh;
+    width: 45vw;
     margin-top: 8vh;
-    margin-left: 25vh;
-    font-size: 2vh;
+    margin-left: 9vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
 
 }
 
 #premium{
-    height: 6vh;
-    width: 30vw;
+    height: 8vh;
+    width: 45vw;
     margin-top: 8vh;
-    margin-left: 25vh;
-    font-size: 2vh;
+    margin-left: 9vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
 
 }
 
-#imgPerfil{
-    height: 6vh;
-    width: 30vw;
+#imagemPerfil{
+    height: 8vh;
+    width: 45vw;
     margin-top: 3vh;
-    margin-left: 25vh;
-    font-size: 2vh;
+    margin-left: 9vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
 
 }
 
 .cont5 p{
     font-size: 3vh;
     color: black;
-    margin-left: 25vh;
+    margin-left: 10vh;
     margin-top: 5vh;
 }
-#reset{
-    height: 6vh;
-    width: 30vw;
-    margin-top: 3vh;
-    margin-left: 25vh;
-    font-size: 2vh;
+#senhaRecuperacao{
+    height: 8vh;
+    width: 45vw;
+    margin-top: 7vh;
+    margin-left: 9vh;
+    font-size: 3vh;
+    border-radius: 2vh;
+    padding-left: 2vw;
 
 }
 

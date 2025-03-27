@@ -4,22 +4,22 @@
 async function register(){
     const url = `https://back-spider.vercel.app/user/cadastrarUser`
 
-    const nome = document.getElementById('name').value
+    const nome = document.getElementById('nome').value
     const email = document.getElementById('email').value
-    const senha = document.getElementById('password').value
+    const senha = document.getElementById('senha').value
     const premium = document.getElementById('premium').value
-    const imagem = document.getElementById('imgPerfil').value
-    const recuperacao = document.getElementById('reset').value
+    const imagem = document.getElementById('imagemPerfil').value
+    const recuperacao = document.getElementById('senhaRecuperacao').value
 
     
 
     const data = {
-        name: nome,
+        nome: nome,
         email: email,
-        password: senha,
+        senha: senha,
         premium: premium,
-        imgPerfil: imagem,
-        reset: recuperacao
+        imagemPerfil: imagem,
+        senhaRecuperacao: recuperacao
 
     }
     const options = {
@@ -33,7 +33,7 @@ async function register(){
 
     console.log(response);
 
-    if(response.status == 200){
+    if(response.status == 201){
         alert('Cadastro realizado com sucesso!')
 
     }else{
