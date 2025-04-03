@@ -179,7 +179,7 @@ section{
     width: 13vw;
     background-color: #E25949;
     font-size: 3vh;
-    margin-left: 21.5vw;
+    margin-left: 20.5vw;
     margin-top: 6vh;
     border-radius: 1vh;
 }
@@ -187,14 +187,14 @@ section{
 .login h3{
     font-size: 3vh;
     color: #535151;
-    margin-left: 16vw;
+    margin-left: 13vw;
     margin-top: 5vh;
 }
 
 .login h2{
     font-size: 3vh;
     color: black;
-    margin-left: 35vw;
+    margin-left: 32vw;
     margin-top: -3.6vh;
 }
 
